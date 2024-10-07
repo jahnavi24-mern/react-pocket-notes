@@ -86,7 +86,7 @@ const Home = () => {
           <>
             {window.innerWidth <= 768 && (
               <button className="back-btn" onClick={handleBack}>
-                <img src="src/assets/back.svg" alt="Back" />
+                <img src="/back.svg" alt="Back" />
               </button>
             )}
             <NoteEditor selectedFolder={selectedFolder} addNote={addNote} />
@@ -94,13 +94,13 @@ const Home = () => {
         ) : (
           <div className='home-landing'>
             <div className='cont-1'>
-              <img src="src/assets/people.svg" alt="People" />
+              <img src="/people.svg" alt="People" />
 
               <h2>Pocket Notes</h2>
               <p>Send and receive messages without keeping your phone online. Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
             </div>
             <div className="encryption-message">
-              <img src="src/assets/Vector copy.svg"></img>
+              <img src="/Vector copy.svg"></img>
               <p>end-to-end encrypted</p>
             </div>
           </div>
